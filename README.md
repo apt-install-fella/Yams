@@ -27,13 +27,17 @@ Les combinaisons possibles incluent :
 
 ---
 
-## Des images illustrant :
+## Comment jouer :
 
-le déroulement d’une partie,
-
-la grille de score,
-
-et la visualisation web du résultat.
+-Récuperation des fichiers sur machine local.
+-Ouvrir le terminal.
+-Se deplacer dans le dossier "C-sharp".
+-Lancer la commande : ``dotnet run``.
+-Jouer.
+-Envoyer le json dans un api spécial (Résérvée aux étudiants).
+-Ovrir le dossier "Web" dans un navigateur.
+-Donner l'identifiant de la partie (obtenu grace à l'api).
+-Visualiser la partie grace aux fleches..
 
 ---
 
@@ -86,6 +90,45 @@ La partie C# permet de :
 
 Le projet a été réalisé sous C#.
 
+![Debut_partie](Web/images/yams_start.png)
+![Pendant_partie](Web/images/yams_while.png)
+![Fin_Partie](Web/images/yams_win.png)
+
+---
+## Partie JSON : Exemple
+  ``{
+    "parameters": {
+        "code": "groupe1-001",
+        "date": "2025-37-30"
+    },
+    
+    "players": [
+        {
+            "id": 1,
+            "pseudo": "fella"
+        },
+        {
+            "id": 2,
+            "pseudo": "Guillaume"
+        }
+    ],
+    "rounds": [{
+    "id": 0,
+    "results": [
+        {
+            "id_player": 1,
+            "dice": [2, 5, 4, 3, 1],
+            "challenge": "Petite Suite",
+            "score": 30
+        },
+        {
+            "id_player": 2,
+            "dice": [2, 2, 4, 5, 3],
+            "challenge": "Petite Suite",
+            "score": 30
+        }
+    ]
+
 ---
 
 ## Partie Web : Visualisation du déroulement
@@ -99,7 +142,7 @@ L’interface Web utilise les fichiers JSON générés pour :
 -Mettre en valeur le vainqueur à la fin du jeu.
 
 Cette partie a été conçue avec HTML, CSS, et JavaScript.
-Captures d’écran
+![site_web](Web/images/yams.png)
 
 
 ---

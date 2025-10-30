@@ -1,4 +1,5 @@
 # 🎲 Projet Yams
+Ce projet n'a pas été réalisé avec GitHub, la récupération de l'historique des versions n'est donc pas possible à cause de fichiers trop volumineux. 
 
 ## Description du jeu
 
@@ -156,3 +157,4 @@ Une application complète permettant de :
 -Sauvegarder automatiquement le déroulement.
 
 -Visualiser ensuite la partie depuis le web avec le score final.
+

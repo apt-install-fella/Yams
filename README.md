@@ -30,15 +30,15 @@ Les combinaisons possibles incluent :
 
 ## Comment jouer :
 
--Récuperation des fichiers sur machine local.
--Ouvrir le terminal.
--Se deplacer dans le dossier "C-sharp".
--Lancer la commande : ``dotnet run``.
--Jouer.
--Envoyer le json dans un api spécial (Résérvée aux étudiants).
--Ovrir le dossier "Web" dans un navigateur.
--Donner l'identifiant de la partie (obtenu grace à l'api).
--Visualiser la partie grace aux fleches..
+- Récuperation des fichiers sur machine local.
+- Ouvrir le terminal.
+- Se deplacer dans le dossier "C-sharp".
+- Lancer la commande : ``dotnet run``.
+- Jouer.
+- Envoyer le json dans un api spécial (Résérvée aux étudiants).
+- Ovrir le dossier "Web" dans un navigateur.
+- Donner l'identifiant de la partie (obtenu grace à l'api).
+- Visualiser la partie grace aux fleches..
 
 ---
 

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YAMS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="head">
+        <img class="dice" src="./images/dice.png" alt="dice">
+        <p id="titre">Jeu De Yams/Yatzy !</p>
+        <img class="dice" src="./images/dice.png" alt="dice">
+    </section>
+
+    <!-- Champ de saisie pour l'ID de la partie -->
+    <section id="game-id-section">
+        <label for="game-id" id="entrerID">Entrez l'ID de la Partie :</label>
+        <input type="text" id="game-id" placeholder="Ex: 3d1rezyupl">
+        <button id="submit-id">Valider</button>
+    </section>
+
+    <section>
+
+        <aside class=gif>
+            <img src="./images/throwing.gif" alt="throwing" width="100" height="100">
+        </aside>
+        
+        <div class="container">
+            <button id="fleche-gauche" class="fleche">⬅️</button>
+            <div id="info-display">
+                <p id="current-action">avancez dans la partie grace aux fleches</p>
+            </div>
+            <button id="fleche-droite" class="fleche">➡️</button>
+        </div>
+    </section>
+    <section class="lien">
+         <a href="gagnant.html">voir les résultats</a>
+    </section>
+
+
+    <script src="scripts/script.js"></script>
+</body>
+
+<footer>
+    <p> MADE BY: </p>
+    <img src="./images/fella.gif" alt="fella" width="50" height="30">
+</footer>
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="head">
+        <img class="yippee" src="images/yippee.gif" alt="dice">
+        <h1 id="title">Résultats du Jeu</h1>
+        <img class="yippee" src="images/yippee.gif" alt="dice">
+    </section>
+
+    <!-- Section pour entrer l'ID de la partie -->
+    <section class="test">
+        <label for="gameIdInput" id="entrerID">Entrez l'ID de la partie:</label>
+        <input type="text" id="gameIdInput" placeholder="Ex: 3d1rezyupl">
+        <button id="loadResultsBtn">Charger les Résultats</button>
+    </section>
+
+    <div id="results">
+        
+        <section class="test">
+            <p class="res">Vainqueur : </p>
+            <p id="vainqueur"> </p>
+        </section>
+        <section class="test">
+            <p class="res">Meilleur Score : </p>
+            <p id="score-final"> </p>
+        </section>
+        <section class="test">
+            <p class="res">Joueurs : </p>
+            <p id="joueurs"> </p>
+        </section>
+        <img src="./images/winner.gif" alt="win" width="30%" id="win">
+    </div>
+
+    <section class="lien">
+        <a href="index.html">Retour à la Partie</a>
+    </section>
+
+    <script src="scripts/gagnant.js"></script>
+</body>
+
+<footer>
+    <p>one two three viva l'Algérie</p>
+    <img src="./images/dz.gif" alt="algeriaaaa" width="50" height="30">
+</footer>
+
+</html>
